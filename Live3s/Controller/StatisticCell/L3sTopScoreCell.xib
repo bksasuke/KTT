@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="L3sTopScoreCell" id="KGk-i7-Jjw" customClass="L3sTopScoreCell" customModule="Live3s" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OVJ-YS-FjE">
+                        <rect key="frame" x="0.0" y="0.0" width="81" height="43"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ov-dc-mVW">
+                        <rect key="frame" x="81" y="0.0" width="81" height="43"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Goals" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytV-rj-UeS">
+                        <rect key="frame" x="162" y="0.0" width="50" height="43"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pen" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JEC-Gb-mQG">
+                        <rect key="frame" x="212" y="0.0" width="50" height="43"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First goal" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfq-jd-qar">
+                        <rect key="frame" x="262" y="0.0" width="50" height="43"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="FoW-GK-kVt"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="nfq-jd-qar" firstAttribute="leading" secondItem="JEC-Gb-mQG" secondAttribute="trailing" id="7xY-Jy-EXb"/>
+                    <constraint firstItem="JEC-Gb-mQG" firstAttribute="leading" secondItem="ytV-rj-UeS" secondAttribute="trailing" id="ILe-FD-ZTG"/>
+                    <constraint firstItem="OVJ-YS-FjE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Jpy-wT-5e7"/>
+                    <constraint firstAttribute="bottom" secondItem="1ov-dc-mVW" secondAttribute="bottom" id="Mmo-Mk-VlG"/>
+                    <constraint firstItem="JEC-Gb-mQG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Nhz-7L-Quw"/>
+                    <constraint firstItem="OVJ-YS-FjE" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.25" id="QAF-Z2-jBR"/>
+                    <constraint firstItem="1ov-dc-mVW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="REd-EA-aRm"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="nfq-jd-qar" secondAttribute="trailing" id="SjA-OY-c7t"/>
+                    <constraint firstItem="ytV-rj-UeS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="TAs-b1-Uyy"/>
+                    <constraint firstItem="ytV-rj-UeS" firstAttribute="leading" secondItem="1ov-dc-mVW" secondAttribute="trailing" id="b0h-6b-tJN"/>
+                    <constraint firstItem="1ov-dc-mVW" firstAttribute="leading" secondItem="OVJ-YS-FjE" secondAttribute="trailing" id="bEU-xv-roL"/>
+                    <constraint firstAttribute="bottom" secondItem="OVJ-YS-FjE" secondAttribute="bottom" id="cdK-6Z-tb2"/>
+                    <constraint firstItem="OVJ-YS-FjE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="coc-cD-8ZJ"/>
+                    <constraint firstAttribute="bottom" secondItem="JEC-Gb-mQG" secondAttribute="bottom" id="coe-CP-s2d"/>
+                    <constraint firstItem="1ov-dc-mVW" firstAttribute="width" secondItem="OVJ-YS-FjE" secondAttribute="width" id="iv6-C2-WEa"/>
+                    <constraint firstItem="nfq-jd-qar" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="kLN-bR-rY6"/>
+                    <constraint firstItem="JEC-Gb-mQG" firstAttribute="width" secondItem="nfq-jd-qar" secondAttribute="width" id="opJ-Sh-pX0"/>
+                    <constraint firstAttribute="bottom" secondItem="nfq-jd-qar" secondAttribute="bottom" id="qb4-Zm-Ap5"/>
+                    <constraint firstItem="ytV-rj-UeS" firstAttribute="width" secondItem="JEC-Gb-mQG" secondAttribute="width" id="wy6-tv-3O5"/>
+                    <constraint firstAttribute="bottom" secondItem="ytV-rj-UeS" secondAttribute="bottom" id="yAk-0O-OIU"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="QAF-Z2-jBR"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblFirstGoal" destination="nfq-jd-qar" id="6Vs-3d-WLq"/>
+                <outlet property="lblGoal" destination="ytV-rj-UeS" id="0RG-0z-MCC"/>
+                <outlet property="lblPen" destination="JEC-Gb-mQG" id="nD2-yf-zRf"/>
+                <outlet property="lblPlayerName" destination="OVJ-YS-FjE" id="AZ7-3n-p6B"/>
+                <outlet property="lblTeamName" destination="1ov-dc-mVW" id="oq5-RM-yc3"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

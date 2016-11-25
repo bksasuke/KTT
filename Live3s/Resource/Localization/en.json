@@ -1,0 +1,90 @@
+{
+ 
+    "Language" : "English",
+    
+    "Match" : "Match",//ok
+    "Fixtures" : "Fixtures",//miss
+    "Result" : "Result",
+    "Search" : "Search",//miss
+    "Rate" : "Odds",//miss
+    "Statistic" : "Standings",//miss -
+    "Scheldule" : "TV guide",//miss
+    "LiveTV" : "Live TV",//miss
+    "Tips" : "Tips",//miss
+    "Favorite" : "Favourite",//miss
+    "Setting" : "Language",//miss -
+    "Related" : "Related",// miss
+    "Share" : "Share",// miss
+    "Review" : "Review", //miss
+    // Mấy cai title naỳ có thể lấy từ menu
+    "Index" : "Index",//miss - title thu tu bang xep hang standing -> giai dau
+    
+    "menu1" : "Leagues",// Ok
+    "menu2" : "Time",// Ok
+    "menu3" : "Finish", // Không dùng đến
+    "menu4" : "All match",// Không dung đến
+    
+    "Today" : "Today",
+    "Sun" : "Sun",//miss - title cac ngay  trong header
+    "Mon" : "Mon",//miss
+    "Tue" : "Tue",//miss
+    "Wen" : "Wen",//miss
+    "Thus" : "Thu",//miss
+    "Fri" : "Fri",//miss
+    "Sat" : "Sat",//miss
+    
+    "Thông tin" : "Details",//ok
+    "Đội hình" : "Lineups",//ok
+    "Match Stats" : "Stats",//miss - 
+    "Thống kê" : "Match Stats",//ok
+    "Thống kê2" : "Form",//ok
+    "Goal" : "Goal",//ok
+    "Xếp hạng" : "Table",//ok -> LanguageKey.table
+    "Lịch thi đấu" : "Scheldule",//ok
+    "Substitution" : "Substitutions",//ok
+    "Head to Head" : "Head to Head",// ok - face to face
+    "My list" : "My list",//ok -> favorite_my_competitions
+    "My season" : "My leagues",// ok -> favorite_my_score
+    
+    "Notify" : "Notify",//ok -> alert
+    "Match Reminder" : "Match Reminder",// lay o match push
+    "Lineups" : "Lineups",//ok
+    "Kick Off" : "Kick Off",//lay o match push
+    "Half Tme" : "Half Time",//lay o match push
+    "Result" : "Result",//
+    "Goal" : "Goal",//ok
+    "Red Card" : "Red Card",//lay o match push
+    
+    "warning" : "Warning",// -> alert
+    "nodata" : "Not found!",// ok -> no_data
+    "FinishMatch" : "Match ended",//ok -> match_finish
+    "cancel" : "Cancel",//ok -> cancel
+    "general" : "General",// ok
+    "All" : "All",//ok -> all country
+    "team" : "Team",// ok -> team
+    
+    "handicap" : "H",// ok -> chap
+    "o/u" : "O/U",// ok -> taixiu
+    
+    "account" : "Account",//miss share twitter
+    "alertLoginTwitter" : "Please login to a Facebook account to share",// miss share twitter
+    
+    "Pl" : "Pl",//ok -> label_total_match
+    "W" : "W",//ok -> LanguageKey.label_total_win
+    "D" : "D",//ok -> LanguageKey.label_total_draw
+    "L" : "L",// ok -> LanguageKey.label_total_lose
+    "Pt" : "Pt",// ok -> LanguageKey.label_total_point
+    "F" : "F",
+    "A" : "A",
+    "Name" : "Name",// ok -> LanguageKey.player
+    "Goals" : "Goals",// ok -> LanguageKey.goal
+    "Pen" : "Pen",// ok ->LanguageKey.penalty_goals
+    "First Goal" : "First Goal",//ok ->LanguageKey.first_goals
+    
+    "Info" : "Info",// misss -> title cho alert vao trang live3s.com
+    "MSViewMore" : "View more at live3s.com!",//ok ->LanguageKey.view_more_at_web
+    
+    "update" : "Update",// miss -> title cho alert update
+    "MSUpdate" : "You need update version",// ok -> LanguageKey.update_app_title
+
+}

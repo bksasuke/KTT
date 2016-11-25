@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MatchDayButton" customModule="Live3s" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundImage" destination="e4J-65-DwY" id="ixF-eJ-JsM"/>
+                <outlet property="backgroundView" destination="M7A-iN-PT6" id="i6x-r6-NrH"/>
+                <outlet property="dayLabel" destination="lTT-Se-kvL" id="uW6-09-XhD"/>
+                <outlet property="day_numLabel" destination="J3g-yk-unb" id="2td-6Y-ego"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="77"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M7A-iN-PT6">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="66"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_day.png" translatesAutoresizingMaskIntoConstraints="NO" id="e4J-65-DwY">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="77"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTT-Se-kvL">
+                    <rect key="frame" x="0.0" y="7" width="80" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="rAw-1b-ND7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3g-yk-unb">
+                    <rect key="frame" x="0.0" y="22" width="80" height="44"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="e4J-65-DwY" secondAttribute="trailing" id="1mq-1Q-Qtq"/>
+                <constraint firstItem="M7A-iN-PT6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4Tf-mp-MUB"/>
+                <constraint firstAttribute="trailing" secondItem="lTT-Se-kvL" secondAttribute="trailing" id="ABm-fU-hsY"/>
+                <constraint firstItem="J3g-yk-unb" firstAttribute="top" secondItem="lTT-Se-kvL" secondAttribute="bottom" id="EPO-oL-iNF"/>
+                <constraint firstItem="lTT-Se-kvL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="7" id="On8-4Q-KEc"/>
+                <constraint firstItem="lTT-Se-kvL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="PCh-Xh-0xR"/>
+                <constraint firstAttribute="bottom" secondItem="J3g-yk-unb" secondAttribute="bottom" id="Qe0-tG-WpY"/>
+                <constraint firstItem="M7A-iN-PT6" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="78/90" id="RfY-CF-Suj"/>
+                <constraint firstAttribute="trailing" secondItem="J3g-yk-unb" secondAttribute="trailing" id="W16-cd-lAO"/>
+                <constraint firstItem="J3g-yk-unb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ZyU-ne-Y52"/>
+                <constraint firstItem="e4J-65-DwY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="iJ6-Ce-52F"/>
+                <constraint firstItem="J3g-yk-unb" firstAttribute="bottom" secondItem="M7A-iN-PT6" secondAttribute="bottom" id="iP4-h0-IlF"/>
+                <constraint firstAttribute="trailing" secondItem="M7A-iN-PT6" secondAttribute="trailing" id="q4C-Qc-tmz"/>
+                <constraint firstAttribute="bottom" secondItem="e4J-65-DwY" secondAttribute="bottom" id="rJy-JB-mds"/>
+                <constraint firstItem="M7A-iN-PT6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="toT-3E-Nbj"/>
+                <constraint firstItem="e4J-65-DwY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zl3-4w-9wS"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Qe0-tG-WpY"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="262" y="227"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_day.png" width="129" height="90"/>
+    </resources>
+</document>
